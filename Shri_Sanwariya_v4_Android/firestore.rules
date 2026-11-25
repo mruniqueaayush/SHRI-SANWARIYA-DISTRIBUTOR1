@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Distributor catalog & orders real-time sync collections
+    // For production, tighten with Firebase Auth (request.auth != null)
+    match /{collection}/{docId} {
+      allow read, write: if collection in ['companies', 'categories', 'schemes', 'products', 'orders', 'settings'];
+    }
+  }
+}

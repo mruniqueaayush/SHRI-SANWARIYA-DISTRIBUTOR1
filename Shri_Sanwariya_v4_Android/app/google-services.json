@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067010307305",
+    "project_id": "shri-sanwariya-distributor",
+    "storage_bucket": "shri-sanwariya-distributor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067010307305:android:81ad91cb3a2e33432fec78",
+        "android_client_info": {
+          "package_name": "com.shrisanwariya.distributor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm5yCnbJOVSTCmNfkcuV217PNQPF2UbEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
